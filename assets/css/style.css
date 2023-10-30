@@ -399,7 +399,7 @@
     min-width: 100%;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
   }
   
   .contact-info {
@@ -1844,7 +1844,7 @@
   
     .contact-info :is(.contact-link) {
       white-space: nowrap;
-      overflow: hidden;
+      /* overflow: hidden; */
       text-overflow: ellipsis;
     }
   
