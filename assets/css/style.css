@@ -846,6 +846,19 @@
     font-size: var(--fs-7);
     font-weight: var(--fw-300);
   }
+
+  @media (max-width: 768px) {
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style: none;
+  }
+  .skills-item {  
+      margin-bottom: 20px;
+      margin-right: 30px;
+  }
+}
   
   .skill-progress-bg {
     background: var(--jet);
